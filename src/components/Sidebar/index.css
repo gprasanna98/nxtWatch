@@ -1,0 +1,41 @@
+.sidebar-container {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .sidebar-container {
+    display: inline;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 100vh;
+  }
+}
+.menu-container {
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
+  align-items: center;
+  color: #424242;
+  font-size: 20px;
+  margin: 0px;
+}
+.menu-icon {
+  color: #424242;
+  margin: 0px;
+  margin-right: 6px;
+}
+.text-menu {
+  font-size: 15px;
+}
+.contact-info-container {
+  padding-left: 20px;
+}
+.contact-us-heading {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.social-media-logo {
+  padding-right: 10px;
+  height: 20px;
+}

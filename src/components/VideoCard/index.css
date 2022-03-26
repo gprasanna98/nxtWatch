@@ -1,0 +1,33 @@
+/* .thumbnail-image {
+  width: px;
+} */
+@media screen and (min-width: 768px) {
+  .thumbnail-image {
+    width: 254px;
+  }
+}
+.home-image-details-container {
+  display: flex;
+}
+
+.profile-image {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+}
+.title {
+  width: 225px;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.video-description {
+  display: flex;
+}
+
+.name {
+  padding-right: 6px;
+}
+.published-at {
+  padding-right: 10px;
+}

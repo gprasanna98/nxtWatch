@@ -1,0 +1,15 @@
+.not-found-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: black;
+}
+.not-found-img {
+  height: 200px;
+}
+.h6 {
+  color: black;
+}

@@ -1,0 +1,59 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.logo-image {
+  height: 30px;
+}
+.light-darkmode-button {
+  background-color: transparent;
+  border: 0px;
+  width: 70px;
+  height: 40px;
+}
+.profile-image {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .profile-image {
+    display: inline;
+    justify-content: center;
+  }
+}
+.menu-button {
+  background-color: transparent;
+  border: 0px;
+  width: 50px;
+}
+@media screen and (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+}
+.logout-button {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .logout-button {
+    background-color: transparent;
+    height: 34px;
+    width: 90px;
+    border-width: 0px;
+    border-radius: 8px;
+    color: blue;
+    font-weight: bold;
+    font-family: Roboto;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: blue;
+    margin-left: 10px;
+    cursor: pointer;
+    display: inline;
+  }
+}
+.header-logout-container {
+  display: flex;
+}

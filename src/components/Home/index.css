@@ -1,0 +1,125 @@
+@media screen and (min-width: 768px) {
+  .middle-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.card-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  background-size: cover;
+  background-color: white;
+  width: 1150px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.close-icon {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 500;
+  padding-right: 20px;
+  background-color: transparent;
+  border: 0px;
+}
+.premium-container {
+  padding-left: 20px;
+}
+.image {
+  height: 20px;
+  width: 100px;
+}
+.description {
+  font-size: 15px;
+  font-weight: 500;
+}
+.get-it-now {
+  background-color: transparent;
+  padding: 10px;
+}
+
+.main-list-container {
+  display: flex;
+  flex-direction: column;
+}
+.search-list-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ebebeb;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .search-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+.search {
+  padding: 5px;
+  margin-top: 5px;
+  width: 250px;
+}
+.search-icon {
+  border: 1px solid;
+  padding: 5px;
+  width: 70px;
+  height: 30px;
+  margin-top: 5px;
+  background-color: #ebebeb;
+}
+.video-menu-container {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .video-menu-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+.videosDiv1 {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button6 {
+  background-color: #00306e;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  height: 34px;
+  width: 110px;
+  border-width: 0px;
+  color: white;
+}
+.icon {
+  font-size: 25px;
+  height: 30px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.img10 {
+  width: 400px;
+}
+.videosDiv1 {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

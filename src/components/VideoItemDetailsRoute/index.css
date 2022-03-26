@@ -1,0 +1,107 @@
+.video-details-container {
+  display: flex;
+}
+.video-Items {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+.video-item-container {
+  width: 90%;
+  padding: 20px;
+}
+.video-title {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: bold;
+  max-width: 600px;
+}
+@media screen and (min-width: 768px) {
+  .video-title {
+    text-decoration: none;
+    color: #1e293b;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+  }
+}
+.video-name-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .video-name-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.count-container {
+  display: flex;
+}
+.viewcount {
+  color: grey;
+  font-size: 15px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+.button-container {
+  display: flex;
+}
+.specific-button {
+  margin-right: 10px;
+}
+.button {
+  width: 100px;
+  border: 0px;
+  color: grey;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.active-button {
+  color: blue;
+  width: 100px;
+  border: 0px;
+
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.name-profile-container {
+  display: flex;
+}
+.name-profile-image {
+  height: 116px;
+  width: 116px;
+  margin-top: 10px px;
+}
+.name-container {
+  padding-left: 20px;
+  color: grey;
+  font-size: 10px;
+  font-family: 'Roboto';
+  max-width: 100vh;
+}
+.video-details {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .video-details {
+    display: inline;
+  }
+}
+.video-description {
+  display: inline;
+  color: grey;
+}
+@media screen and (min-width: 768px) {
+  .video-description {
+    display: none;
+  }
+}
+.video {
+  width: 100%;
+}
